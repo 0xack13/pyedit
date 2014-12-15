@@ -12,7 +12,7 @@ num_lines = sum(1 for line in open("/Users/Saleh/src/0xack13/pyedit/Salawat.txt"
 # if line.rstrip())
 num_lines_empty = sum(1 for line in open("/Users/Saleh/src/0xack13/pyedit/Salawat.txt") if line.rstrip())
 
-print num_lines, " Empty: ", num_lines_empty
+print "Total number of lines: ", num_lines, "\nNumber of empty lines: ", num_lines_empty
 
 #with open("/Users/Saleh/src/ios/SwiftReminder/Salawat.txt") as f:
 #    content = f.readlines()	
