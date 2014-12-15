@@ -20,7 +20,7 @@ print num_lines, " Empty: ", num_lines_empty
 #print y
 
  
-for line in fileinput.input():
+for line in fileinput.input(inplace=1, backup='.bak'):
     line = re.sub('github','bitbucket', line.rstrip())
     print(line)
 
